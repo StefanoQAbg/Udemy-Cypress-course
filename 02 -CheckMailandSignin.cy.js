@@ -44,18 +44,7 @@ describe("Verify User withMailslurp ", () => {
                  cy.get('[name="password"]').type("Igotit123456")
                  cy.get('[name="confirm_password"]').type("Igotit123456")
                  cy.get('[name="button_subscribe"]').click()
-                //  cy.wait(3000)
-//                  cy.visit('www.receivesms.co/uk-phone-number/3413/',()=>{
-                    
-//                  })
-//                  cy.get('span').find('b').to.eq(1).then(text =>{
-//                     cy.wrap(text).as('pin')
-//                     console.log(text)
-//                  })
-//                 //  cy.get('[class="btn-primary btn"]')
-               
-//                 //  })
-//                  //cy.get('[class="user_pin form-control"]').type("pin")
+             
                 });
 
 
